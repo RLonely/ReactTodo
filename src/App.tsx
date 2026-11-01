@@ -82,9 +82,7 @@ function App() {
 
               <span
                 className={
-                  todo.completed
-                    ? `${styles["todo__text"]} ${styles["todo__text--completed"]}`
-                    : styles["todo__text"]
+                  todo.completed ? `${styles["todo__text"]} ${styles["todo__text--completed"]}` : styles["todo__text"]
                 }
               >
               {todo.title}
