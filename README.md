@@ -31,7 +31,7 @@ git clone https://github.com/RLonely/ReactTodo.git
 2. Перейти в папку проекта:
 
 ```bash
-cd zaloghub-todo
+cd ReactTodo-main
 ```
 
 3. Установить зависимости:
