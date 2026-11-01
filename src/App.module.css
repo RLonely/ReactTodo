@@ -1,0 +1,114 @@
+.todo {
+  background: #000;
+  border-radius: 30px;
+  border: 1px solid #fff;
+  margin: 20px;
+  padding: 10px 30px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.todo__blocks {
+  display: flex;
+}
+
+.todo__title {
+  margin: 4px 0 12px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.todo__form {
+  display: flex;
+  gap: 8px;
+}
+
+.todo__input {
+  flex: 1;
+  min-width: 0;
+  padding: 10px;
+  background: #000;
+  border: 1px solid #333;
+  border-radius: 7px;
+  color: #fff;
+  outline: none;
+}
+
+.todo__input:focus {
+  border-color: #666;
+}
+
+.todo__add {
+  padding: 10px 12px;
+  background: #222;
+  color: #ddd;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.todo__filters {
+  display: flex;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.todo__filters button {
+  padding: 5px 0;
+  background: none;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.todo__filters button:hover {
+  color: #fff;
+}
+
+.todo__list {
+  margin: 14px 0 0;
+  padding: 15px 0 0;
+  border-top: 1px solid #181818;
+  list-style: none;
+}
+
+.todo__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 2px;
+  font-size: 14px;
+  justify-content: space-between;
+}
+
+.todo__item input {
+  accent-color: #ddd;
+  cursor: pointer;
+}
+
+.todo__text {
+  flex: 1;
+}
+
+.todo__text--completed {
+  color: #888;
+  text-decoration: line-through;
+}
+
+.todo__delete {
+  padding: 3px 0;
+  background: none;
+  border: none;
+  color: #aaa;
+  cursor: pointer;
+}
+
+.todo__delete:hover {
+  color: #fff;
+}
+
+.todo__counter {
+  color: #999;
+  font-size: 13px;
+}
